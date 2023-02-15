@@ -1,0 +1,166 @@
+.youtube-window {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.custom-button-hangman {
+  padding: 0.2rem 0.5rem;
+}
+.keyboard-container {
+  display: inline-flex;
+  background-color: rgb(0, 119, 16);
+  border-radius: 10px;
+}
+
+span {
+  color: white;
+}
+.text-center {
+  color: #fcf9f9;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.hangman-img {
+  color: #ffffff;
+  background-color: rgba(240, 248, 255, 0.925);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  outline: #00a824;
+}
+.hangman-text {
+  background-color: rgb(50, 132, 255);
+  width: 15%;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 25px;
+}
+body {
+  background-image: url("../Images/ny-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.login-button2 {
+  position: relative;
+  left: 4.5cm; /* moves the button 20px to the right */
+}
+
+.parent {
+  display: flex;
+  height: 100cm; /* or any desired height */
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container {
+  position: fixed;
+  left: 1.66cm;
+  top: 2.5cm;
+  background-color: rgba(0, 255, 0, 0.233);
+  padding-left: 0.3cm;
+  padding-right: 0.3cm;
+  padding-top: 0.3cm;
+  padding-bottom: 0.3cm;
+  display: flex;
+  width: 15%;
+  border-radius: 25px;
+  color: #ffffff;
+}
+.imgcontainer {
+  float: left;
+  padding-right: 100px;
+}
+
+.form-box {
+  background-color: rgba(255, 255, 255, 0.849);
+  color: #cd69ff;
+  font-weight: bold;
+
+  position: top;
+}
+
+.pass_error {
+  background-color: rgb(255, 0, 0);
+  color: #cd69ff;
+  font-weight: bold;
+  font-size: xx-large;
+  text-align: center;
+  border: 3px rgb(27, 27, 27);
+  vertical-align: middle;
+}
+
+.return-forgpass {
+  color: #cd69ff;
+  font-weight: bold;
+  font-size: xx-large;
+  text-align: center;
+  vertical-align: middle;
+  justify-content: center;
+  display: flex;
+  text-shadow: 2px 2px 0px rgb(255, 255, 255);
+}
+
+.login-button:hover {
+  color: #00a824;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: large;
+  transition: 0.5s;
+}
+
+/*NAVBAR*/
+nav {
+  position: fixed;
+  background-color: rgba(0, 255, 0, 0.233);
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  padding-block: 0.4cm;
+  width: 8.5cm;
+  margin-left: 50px;
+  top: 0.5cm;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 10;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.home-button:hover {
+  color: #00a824;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: large;
+  transition: 0.5s;
+}
+.contact-button:hover {
+  color: #00a824;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: large;
+  transition: 0.5s;
+}
+.about-button:hover {
+  color: #00a824;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: large;
+  transition: 0.5s;
+}
+.login-button:hover {
+  color: #00a824;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: large;
+  transition: 0.5s;
+}

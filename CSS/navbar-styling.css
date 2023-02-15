@@ -1,0 +1,40 @@
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(65, 134, 62);
+  border: 1px solid rgba(0, 0, 0, 0.082);
+}
+
+.nav-list li {
+  float: left;
+}
+
+.nav-list li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav-list li a:hover {
+  background-color: rgb(98, 165, 82);
+}
+
+.nav-list .active {
+  background-color: rgb(98, 165, 82);
+}
+
+.nav-list a:hover {
+  color: #fff;
+  transition: background-color 0.3s ease-in-out;
+}
+body {
+  background-image: url("../Images/bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
