@@ -16,8 +16,8 @@ p {
 
   margin-top: 3%;
   height: 960px;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 .right-container-parent {
   display: flex;
@@ -32,15 +32,18 @@ p {
   width: 70%;
   height: 960px;
   margin-left: 2%;
+  margin-right: 3%;
 }
 .left-side-container-1 {
   width: 100%;
   height: 160px;
 }
-.left-side-container-2 {
-  border: 1px solid rgb(2, 0, 0);
+.left-side-header {
+  border: 1px solid rgb(255, 102, 0);
   width: 100%;
-  height: 160px;
+  height: 40px;
+}
+.work-header {
 }
 .left-side-container-3 {
   border: 1px solid rgb(2, 0, 0);
@@ -69,6 +72,14 @@ p {
   align-items: center;
   width: 100%;
   height: 180.9px;
+}
+.experience-header {
+  border: 1px solid rgb(255, 102, 0);
+  width: 100%;
+  height: 40px;
+}
+.education-header {
+  text-align: center;
 }
 .right-side-container-2 {
   border: 0.25px solid rgb(2, 0, 0);
