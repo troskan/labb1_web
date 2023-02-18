@@ -1,0 +1,131 @@
+body {
+  background: rgb(230, 255, 241);
+  background: radial-gradient(
+    circle,
+    rgba(230, 255, 241, 1) 0%,
+    rgba(197, 240, 255, 1) 100%
+  );
+}
+p {
+  font-size: large;
+}
+.container-parent {
+  display: flex;
+  background-color: white;
+  border: 2px solid black;
+
+  margin-top: 3%;
+  height: 960px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.right-container-parent {
+  display: flex;
+  border: 1px solid black;
+  width: 30%;
+  height: 960px;
+  margin-right: 2%;
+}
+.left-container-parent {
+  display: block;
+  border: 1px solid black;
+  width: 70%;
+  height: 960px;
+  margin-left: 2%;
+}
+.left-side-container-1 {
+  width: 100%;
+  height: 160px;
+}
+.left-side-container-2 {
+  border: 1px solid rgb(2, 0, 0);
+  width: 100%;
+  height: 160px;
+}
+.left-side-container-3 {
+  border: 1px solid rgb(2, 0, 0);
+  width: 100%;
+  height: 160px;
+}
+.left-side-container-4 {
+  border: 1px solid rgb(2, 0, 0);
+  width: 100%;
+  height: 160px;
+}
+.left-side-container-5 {
+  border: 1px solid rgb(2, 0, 0);
+  width: 100%;
+  height: 160px;
+}
+.right-container-parent {
+  display: block;
+  border: 1px solid black;
+  width: 30%;
+  height: 100%;
+}
+.right-side-container-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 180.9px;
+}
+.right-side-container-2 {
+  border: 0.25px solid rgb(2, 0, 0);
+  width: 100%;
+  height: 160px;
+}
+.right-side-container-3 {
+  border: 0.25px solid rgb(2, 0, 0);
+  width: 100%;
+  height: 160px;
+}
+.right-side-container-4 {
+  border: 0.25px solid rgb(2, 0, 0);
+  width: 100%;
+  height: 160px;
+}
+.right-side-container-5 {
+  border: 1px solid rgb(2, 0, 0);
+  width: 100%;
+  height: 160px;
+}
+.avatar {
+  width: 150px;
+  height: 140px;
+  border-radius: 150px;
+}
+/* .container-parent {
+  display: flex;
+  border: 2px solid black;
+  margin-top: 5%;
+  height: 200px;
+
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.top-left-container {
+  border: 2px solid rgb(17, 0, 255);
+  width: 70%;
+}
+.top-right-container {
+  border: 2px solid rgb(17, 0, 255);
+  width: 30%;
+}
+
+.bottom-container-parent {
+  display: flex;
+  border: 2px solid rgb(255, 0, 0);
+  height: 600px;
+
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.bottom-left-container {
+  border: solid red;
+  width: 70%;
+}
+.bottom-right-container {
+  border: solid red;
+  width: 30%;
+} */
