@@ -12,23 +12,23 @@ p {
 .container-parent {
   display: flex;
   background-color: white;
-  border: 2px solid black;
+  /* border: 2px solid black; */
 
   margin-top: 3%;
-  height: 1050px;
-  margin-left: 15%;
-  margin-right: 15%;
+  height: 1100px;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 .right-container-parent {
   display: flex;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 30%;
   height: 960px;
   margin-right: 2%;
 }
 .left-container-parent {
   display: block;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 70%;
   height: 100%;
   margin-right: 3%;
@@ -39,30 +39,30 @@ p {
   height: 160px;
 }
 .left-side-header {
-  border: 1px solid rgb(255, 102, 0);
+  /* border: 1px solid rgb(255, 102, 0); */
   width: 100%;
   height: 40px;
 }
 .work-header {
 }
 .left-side-container-3 {
-  border: 1px solid rgb(2, 0, 0);
+  /* border: 1px solid rgb(2, 0, 0); */
   width: 100%;
   height: 160px;
 }
 .left-side-container-4 {
-  border: 1px solid rgb(2, 0, 0);
+  /* border: 1px solid rgb(2, 0, 0); */
   width: 100%;
   height: 160px;
 }
 .left-side-container-5 {
-  border: 1px solid rgb(2, 0, 0);
+  /* border: 1px solid rgb(2, 0, 0); */
   width: 100%;
   height: 160px;
 }
 .right-container-parent {
   display: block;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 30%;
   height: 100%;
 }
@@ -74,30 +74,31 @@ p {
   height: 180.9px;
 }
 .experience-header {
-  border: 1px solid rgb(255, 102, 0);
+  /* border: 1px solid rgb(255, 102, 0); */
   width: 100%;
   height: 40px;
 }
 .education-header {
-  text-align: center;
 }
 .right-side-container-2 {
-  border: 0.25px solid rgb(2, 0, 0);
+  /* border: 0.25px solid rgb(2, 0, 0); */
   width: 100%;
-  height: 160px;
+  height: 100px;
 }
 .right-side-container-3 {
-  border: 0.25px solid rgb(2, 0, 0);
+  /* border: 0.25px solid rgb(2, 0, 0); */
   width: 100%;
   height: 160px;
 }
 .right-side-container-4 {
-  border: 0.25px solid rgb(2, 0, 0);
+  /* border: 0.25px solid rgb(2, 0, 0); */
   width: 100%;
   height: 160px;
 }
 .right-side-container-5 {
-  border: 1px solid rgb(2, 0, 0);
+  /* border: 1px solid rgb(2, 0, 0); */
+  margin-top: 130px;
+
   width: 100%;
   height: 160px;
 }
@@ -106,37 +107,3 @@ p {
   height: 140px;
   border-radius: 150px;
 }
-/* .container-parent {
-  display: flex;
-  border: 2px solid black;
-  margin-top: 5%;
-  height: 200px;
-
-  margin-left: 20%;
-  margin-right: 20%;
-}
-.top-left-container {
-  border: 2px solid rgb(17, 0, 255);
-  width: 70%;
-}
-.top-right-container {
-  border: 2px solid rgb(17, 0, 255);
-  width: 30%;
-}
-
-.bottom-container-parent {
-  display: flex;
-  border: 2px solid rgb(255, 0, 0);
-  height: 600px;
-
-  margin-left: 20%;
-  margin-right: 20%;
-}
-.bottom-left-container {
-  border: solid red;
-  width: 70%;
-}
-.bottom-right-container {
-  border: solid red;
-  width: 30%;
-} */
