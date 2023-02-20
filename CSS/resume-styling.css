@@ -15,7 +15,7 @@ p {
   border: 2px solid black;
 
   margin-top: 3%;
-  height: 960px;
+  height: 1050px;
   margin-left: 15%;
   margin-right: 15%;
 }
@@ -30,9 +30,9 @@ p {
   display: block;
   border: 1px solid black;
   width: 70%;
-  height: 960px;
-  margin-left: 2%;
+  height: 100%;
   margin-right: 3%;
+  margin-left: 2%;
 }
 .left-side-container-1 {
   width: 100%;
