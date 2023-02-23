@@ -8,6 +8,7 @@ body {
 }
 p {
   font-size: large;
+  max-width: 70%;
 }
 .container-parent {
   display: flex;
@@ -34,32 +35,19 @@ p {
   margin-right: 3%;
   margin-left: 2%;
 }
-.left-side-container-1 {
+.left-side-container-1,
+.left-side-container-3,
+.left-side-container-4,
+.left-side-container-5 {
   width: 100%;
-  height: 160px;
+  height: 100px;
 }
 .left-side-header {
   /* border: 1px solid rgb(255, 102, 0); */
   width: 100%;
   height: 40px;
 }
-.work-header {
-}
-.left-side-container-3 {
-  /* border: 1px solid rgb(2, 0, 0); */
-  width: 100%;
-  height: 160px;
-}
-.left-side-container-4 {
-  /* border: 1px solid rgb(2, 0, 0); */
-  width: 100%;
-  height: 160px;
-}
-.left-side-container-5 {
-  /* border: 1px solid rgb(2, 0, 0); */
-  width: 100%;
-  height: 160px;
-}
+
 .right-container-parent {
   display: block;
   /* border: 1px solid black; */
@@ -78,26 +66,19 @@ p {
   width: 100%;
   height: 40px;
 }
-.education-header {
-}
-.right-side-container-2 {
-  /* border: 0.25px solid rgb(2, 0, 0); */
-  width: 100%;
-  height: 100px;
-}
-.right-side-container-3 {
-  /* border: 0.25px solid rgb(2, 0, 0); */
-  width: 100%;
-  height: 160px;
-}
+
+.right-side-container-2,
+.right-side-container-3,
 .right-side-container-4 {
   /* border: 0.25px solid rgb(2, 0, 0); */
   width: 100%;
-  height: 160px;
+  height: 100px;
+  margin-bottom: 5%;
 }
+
 .right-side-container-5 {
   /* border: 1px solid rgb(2, 0, 0); */
-  margin-top: 130px;
+  margin-top: 5%;
 
   width: 100%;
   height: 160px;
@@ -105,5 +86,40 @@ p {
 .avatar {
   width: 150px;
   height: 140px;
-  border-radius: 150px;
+
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  .container-parent {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .container-parent p {
+    font-size: 12px;
+    max-width: 140px;
+  }
+  .container-parent h2 {
+    font-size: 12px;
+  }
+  .container-parent h3 {
+    font-size: 12px;
+    max-width: 80px;
+  }
+  .container-parent h4 {
+    font-size: 14px;
+  }
+  .right-container-parent {
+    width: 50%;
+  }
+  .left-container-parent {
+    width: 50%;
+  }
+  .right-side-container-3 {
+    margin-top: 80px;
+  }
+  .avatar {
+    height: 50%;
+    width: 100%;
+  }
 }
