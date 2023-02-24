@@ -16,7 +16,7 @@ p {
   /* border: 2px solid black; */
 
   margin-top: 3%;
-  height: 1100px;
+  height: auto;
   margin-left: 20%;
   margin-right: 20%;
 }
@@ -24,23 +24,32 @@ p {
   display: flex;
   /* border: 1px solid black; */
   width: 30%;
-  height: 960px;
+  height: auto;
   margin-right: 2%;
 }
 .left-container-parent {
   display: block;
   /* border: 1px solid black; */
   width: 70%;
-  height: 100%;
+  height: auto;
   margin-right: 3%;
   margin-left: 2%;
 }
-.left-side-container-1,
+.work-header {
+  margin-top: 0px;
+}
+.left-side-container-1 {
+  margin-bottom: 0px;
+  width: 100%;
+  height: 180px;
+}
+.left-side-container-2,
 .left-side-container-3,
 .left-side-container-4,
 .left-side-container-5 {
   width: 100%;
-  height: 100px;
+  height: auto;
+  margin-bottom: 30px; /* updated from 0px */
 }
 .left-side-header {
   /* border: 1px solid rgb(255, 102, 0); */
@@ -72,8 +81,8 @@ p {
 .right-side-container-4 {
   /* border: 0.25px solid rgb(2, 0, 0); */
   width: 100%;
-  height: 100px;
-  margin-bottom: 5%;
+  height: auto;
+  margin-bottom: 30px; /* updated from 5% */
 }
 
 .right-side-container-5 {
