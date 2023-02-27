@@ -1,10 +1,10 @@
 .nav-container {
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 .nav-list {
   display: inline-flex;
-
   padding: 0px;
   list-style: none;
 }
@@ -20,6 +20,7 @@
   color: white;
   text-decoration: none;
   border-radius: 1%;
+  font-size: 25px;
 }
 .nav-list a:hover {
   color: rgb(255, 187, 41);
