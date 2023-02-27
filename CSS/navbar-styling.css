@@ -1,117 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Resumé</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&family=Space+Mono&display=swap" rel="stylesheet">
- 
- 
-    <link rel="stylesheet" type="text/css" href="CSS/navbar-styling.css" />
-    <link rel="stylesheet" type="text/css" href="CSS/resume-styling.css" />
-    <link rel="stylesheet" type="text/css" href="CSS/footer.css" />
- 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  </head>
-  <body>
-    <header>
-  <nav class="nav-container">
-    <ul class="nav-list">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a class="active" href="resume.html">Resumé</a></li>
-      <li><a href="aboutme.html">About Me</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
-    </header>
-    <tbody>
-      <div class="container-parent">
-        <div class="left-container-parent">
-          <section class="left-side-container-1">
-            <h1 class="name-title" >Alvin Strandberg</h1>
-            <p>
-              <i class="fa-solid fa-envelope"></i> alvin.strandberg@hotmail.com <br><i class="fa-brands fa-github"></i> <a target="_blank" href="https://github.com/troskan/">Github</a> <br> <i class="fa-brands fa-linkedin"></i> <a target="_blank" href="https://www.linkedin.com/in/alvin-strandberg-612954253/">Min LinkedIn</a><br><i class="fa-solid fa-phone"></i> 0761894125 <br><i class="fa-solid fa-location-dot"></i> Lastad, Falkenberg
-            </p>
-          </section>
-          <header class="experience-header">
-            <h3 class="work-header">Tidigare Erfarenhet</h3>
-          </header>
-          <section class="left-side-container-2">
-            <h3>Din Byggare I falkenberg</h3>
-            <p><i style="color:grey;"class="fa-solid fa-wrench"></i> Snickare 2020 - </p>
-            <p>
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias modi illo adipisci corrupti, labore velit a. Consequatur, nulla officiis nisi perspiciatis, aliquid quia perferendis nostrum sint obcaecati deleniti voluptate inventore.
-            </p>
-          </section>
- 
-          <section class="left-side-container-3">
-            <h3>ERAN Byggservice</h3>
-            <p><i style="color:grey;"class="fa-solid fa-wrench"></i> Snickare 2020</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eum eaque cum corporis sit tenetur mollitia iure veritatis architecto nobis!
-            </p>
-          </section>
- 
-          <section class="left-side-container-4">
-            <h3>Lars Eklöws Byggservice</h3>
-            <p><i style="color:grey;"class="fa-solid fa-wrench"></i>  Snickare 2019</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, cum alias! Praesentium, perferendis magnam ad inventore ipsa nisi est laudantium, illum, quis saepe rerum error?
-            </p>
-          </section>
-          <section class="left-side-container-5">
-            <h3>PEAB Byggservice</h3>
-            <p><i style="color:grey;"class="fa-solid fa-wrench"></i> Snickare 2015-2019</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nemo sed beatae officiis repudiandae et!
-            </p>
-          </section>
-          <section class="left-side-container-6">
-            <h3>Börjessons Måleri Veddige</h3>
-            <p><i style="color:grey;" class="fa-solid fa-paint-roller"></i> Målare 2014</p>
-            <p>
-              2014 sommarjobbade jag som målare när jag hade sommarlov från
-              gymmnasiet.
-            </p>
-          </section>
-        </div>
-        <div class="right-container-parent">
-          <section class="right-side-container-1">
-            <img
-              class="avatar"
-              src="Images/avatar.png"
-              alt="picture of website creator in person"
-            />
-          </section>
-          <header class="education-header">
-            <h3 class="education-header">Utbildning</h3>
-          </header>
- 
-          <section class="right-side-container-2">
-            <h3><i class="fa-solid fa-building-columns"></i> Systemutvecklare .NET</h3>
-             <p>Qlok AB @Campus Varberg 2022-</p> 
-            <a target="_blank" href="https://campus.varberg.se/yrkeshogskola/systemutvecklare-net">Mer information</a>
-          </section>
-          <section class="right-side-container-3">
-            <h3><i class="fa-solid fa-building-columns"></i> Bygg- och anläggningsprogrammet</h3>
-              <p>>Peder Skrivares Skola 2012-2015</p>
- 
-          </section>
-            <ul class="right-side-container-4">
-              <h3>Egenskaper</h3>
-            <li>Prestigelös</li>
-            <li>Glad och positiv</li>
-            <li>Vågar fåroga för att förstå</li>
-            <li>Utåtriktad och skojfrisk</li>
-            <!-- This needs to go in git -->
-          </ul>
- 
-    </tbody>
-    <tfoot></tfoot>
- 
-  </body>
-</html>
+.nav-container {
+  display: flex;
+  justify-content: center;
+}
+.nav-list {
+  display: inline-flex;
+
+  padding: 0px;
+  list-style: none;
+}
+.nav-list li {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 0;
+}
+.nav-list a {
+  border: 0.01rem solid rgba(0, 0, 0, 0.251);
+  padding: 0.5rem;
+  background-color: rgb(38, 114, 31);
+  color: white;
+  text-decoration: none;
+  border-radius: 1%;
+}
+.nav-list a:hover {
+  color: rgb(255, 187, 41);
+}
+.nav-list .active {
+  color: rgb(255, 187, 41);
+}
+@media only screen and (max-width: 390px) and (min-width: 50px) {
+  .nav-list {
+    display: block;
+    width: 100%;
+  }
+  .nav-list li {
+    display: block;
+    margin: 0px;
+  }
+  .nav-list a {
+    text-align: center;
+    display: block;
+    padding: 1rem;
+    width: 100%;
+    padding: 0px;
+  }
+}
