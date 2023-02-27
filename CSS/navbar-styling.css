@@ -4,8 +4,14 @@
 }
 .nav-list {
   display: inline-flex;
+
   padding: 0px;
   list-style: none;
+}
+.nav-list li {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 0;
 }
 .nav-list a {
   border: 0.01rem solid rgba(0, 0, 0, 0.251);
@@ -20,4 +26,21 @@
 }
 .nav-list .active {
   color: rgb(255, 187, 41);
+}
+@media only screen and (max-width: 390px) and (min-width: 50px) {
+  .nav-list {
+    display: block;
+    width: 100%;
+  }
+  .nav-list li {
+    display: block;
+    margin: 0px;
+  }
+  .nav-list a {
+    text-align: center;
+    display: block;
+    padding: 1rem;
+    width: 100%;
+    padding: 0px;
+  }
 }
