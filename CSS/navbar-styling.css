@@ -31,7 +31,7 @@
 .nav-list .active {
   color: rgb(255, 187, 41);
 }
-@media only screen and (max-width: 390px) and (min-width: 50px) {
+@media only screen and (max-width: 600px) and (min-width: 50px) {
   .nav-list {
     display: block;
     width: 100%;

@@ -8,6 +8,7 @@ p {
 .parent-container {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   height: 17rem;
   margin: 0% 5%;
 }
@@ -16,6 +17,7 @@ p {
 }
 .box {
   display: flexbox;
+  flex-wrap: wrap;
   width: 12rem;
   padding: 1rem;
   border-radius: 0.2rem;
@@ -25,8 +27,6 @@ p {
   background-color: rgb(255, 187, 245);
 }
 #box-2 {
-  position: relative;
-  bottom: 1.6rem;
   background-color: rgb(198, 255, 168);
 }
 #box-3 {
