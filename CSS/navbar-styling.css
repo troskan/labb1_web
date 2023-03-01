@@ -1,6 +1,9 @@
 :root {
   font-family: "Roboto Slab";
 }
+body {
+  margin: 0;
+}
 .nav-container {
   display: flex;
   justify-content: center;
