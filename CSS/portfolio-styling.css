@@ -10,7 +10,9 @@ p {
   justify-content: space-evenly;
   flex-wrap: wrap;
   height: 17rem;
-  margin: 0% 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
 }
 .box-img {
   height: 15rem;

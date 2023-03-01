@@ -5,6 +5,7 @@
   display: flex;
   justify-content: center;
   text-align: center;
+  background-color: rgb(255, 255, 255);
 }
 .nav-list {
   display: inline-flex;
@@ -12,15 +13,12 @@
   list-style: none;
 }
 .nav-list li {
-  margin-top: 10%;
-  margin-bottom: 10%;
   padding: 0;
 }
 .nav-list a {
-  border: 0.01rem solid rgba(0, 0, 0, 0.251);
+  /* border: 0.01rem solid rgba(0, 0, 0, 0.251); */
   padding: 0.5rem;
-  background-color: rgb(38, 114, 31);
-  color: white;
+  color: rgb(201, 201, 201);
   text-decoration: none;
   border-radius: 1%;
   font-size: 25px;
